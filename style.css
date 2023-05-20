@@ -3,6 +3,11 @@ html, body
     font-family: 'Mulish', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    color: #31572C;
+}
+
 div.container
 {
     background-color: #cae799;
@@ -42,7 +47,8 @@ button, input
 div.buttons
 {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 input
