@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>guess the number!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button id="btnStart">
+                start
+            </button>
+            <input type="number" id="userNumber" value="1" max="1000" min="1" disabled>
+            <button id="btnTry" disabled>
+                make attempt
+            </button>
+        </div>
+        
+        <div class="info">
+            <p>info:</p>
+            <p id="outputInfo"></p>
+        </div>
+        <div class="info">
+            <p>attempts:</p>
+            <p id="attemptCount"></p>
+        </div>
+        <div class="info">
+            <p>result:</p>
+            <p id="result"></p>
+            <p id="pic"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
